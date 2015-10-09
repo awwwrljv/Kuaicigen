@@ -1,7 +1,7 @@
-var main = function() {
+var main = function () {
   "use strict";
   document.getElementById("searchbox").focus();
-  $('.word').click(function() {
+  $('.word').click(function () {
     var txt = $(this).text().replace(/\s/g, "");
     $('.word').removeClass('current');
     $(this).addClass('current');

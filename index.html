@@ -1,104 +1,59 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<meta charset="UTF-8">
-<title>快词根</title>
+  <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>快词根</title>
 </head>
+
 <body>
-<nav class="navbar navigator shadow navbar-fixed-top">
-  <div class="container-fluid search">
-    <div class="nav navbar-left">
-      <input id="searchbox" type="text" class="searchbox" placeholder="开始搜索">
+  <nav class="navbar navigator shadow navbar-fixed-top">
+    <div class="container-fluid search">
+      <div class="nav navbar-left">
+        <input id="searchbox" type="text" class="searchbox" placeholder="开始搜索">
+      </div>
+      <div class="nav navbar-right collapse navbar-collapse">
+        <img src="logo.svg" height="48px" alt="快词根" />
+      </div>
     </div>
-    <div class="nav navbar-right collapse navbar-collapse">
-      <img src="logo.svg" height="48px" alt="快词根"/>
+  </nav>
+  <div class="row wordlist">
+    <div class="shadow">
+
+      <div class="word">
+        <div class="item">
+          <p>prefix</p>
+        </div>
+      </div>
+
+      <div class="word">
+        <div class="item">
+          <p>prefixal</p>
+        </div>
+      </div>
+
+      <div class="word">
+        <div class="item">
+          <p>suffix</p>
+        </div>
+      </div>
+
+      <div class="word">
+        <div class="item">
+          <p>suffixal</p>
+        </div>
+      </div>
+
     </div>
   </div>
-</nav>
-<div class="col-md-3 row wordlist">
-  <div class="shadow">
-
-    <div class="word">
-      <div class="item">
-        <p>prefix</p>
-      </div>
+  <div class="row">
+    <div class="content">
     </div>
-
-    <div class="word">
-      <div class="item">
-        <p>prefixal</p>
-      </div>
-    </div>
-
-    <div class="word">
-      <div class="item">
-        <p>suffix</p>
-      </div>
-    </div>
-
-    <div class="word">
-      <div class="item">
-        <p>suffixal</p>
-      </div>
-    </div>
-
-    <div class="word">
-      <div class="item">
-        <p>test1</p>
-      </div>
-    </div>
-
-    <div class="word">
-      <div class="item">
-        <p>test2</p>
-      </div>
-    </div>
-
-    <div class="word">
-      <div class="item">
-        <p>test3</p>
-      </div>
-    </div>
-
-    <div class="word">
-      <div class="item">
-        <p>test4</p>
-      </div>
-    </div>
-
-    <div class="word">
-      <div class="item">
-        <p>test5</p>
-      </div>
-    </div>
-
-    <div class="word">
-      <div class="item">
-        <p>test6</p>
-      </div>
-    </div>
-
-    <div class="word">
-      <div class="item">
-        <p>test7</p>
-      </div>
-    </div>
-
-    <div class="word">
-      <div class="item">
-        <p>test8</p>
-      </div>
-    </div>
-
   </div>
-</div>
-<div class="col-md-9 row">
-  <div class="content">
-  </div>
-</div>
-<script src="jquery-2.1.4.min.js"></script>
-<script src="app.js"></script>
+  <script src="jquery-2.1.4.min.js"></script>
+  <script src="app.js"></script>
 </body>
+
 </html>
