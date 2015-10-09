@@ -4,7 +4,9 @@
 
 ## 文件
 
-index.html 是首页文件，style.css 是其 CSS 文件，app.js 是其 JS 文件。
+index.html 是首页文件。
+
+statics 文件夹中存放着 CSS 文件和 JS 文件。
 
 bootstrap-3.3.5-dist 和 jquery-2.1.4.min.js 自然不用多说……
 
