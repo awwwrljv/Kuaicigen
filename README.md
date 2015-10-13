@@ -22,7 +22,7 @@ contents 文件夹里存放着所有单词的释义。
 在刚打开首页、点击一个单词之前，页面的下方是一片空白。通过 JS，我实现了这样一系列程序：
 
     $('.searchbox').keyup(function() { // 在搜索框输入内容后……
-      var txt = document.getElementById("searchbox").value.replace(/\s/g, "");; // 将“txt”定义为输入的单词
+      var txt = document.getElementById("searchbox").value.replace(/\s/g, ""); // 将“txt”定义为输入的单词
       $('.content').html('<iframe height="100%" width="100%" frameborder="0" src="contents/' + txt + '.html"></iframe>'); // 从“contents”文件夹中找到以这个单词命名的 HTML 文件并以 iframe 展示出来
     });
 
