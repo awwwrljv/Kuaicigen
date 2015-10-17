@@ -14,10 +14,13 @@ contents 文件夹里存放着所有单词的释义。
 
 首先，如果直接运行 index.html（或访问 kuaicigen.com），会看到这个网站的主页面。不难看出，上方有一条导航栏（nav），其中有一个搜索框。输入单词后，下方会直接出现单词的释义。这个页面是用 iframe 配合 JS 展示的。
 
-在 index.html 的第 22 至 23 行，可以看到这样一段简短的代码：
+在 index.html 的第 22 至 24 行，可以看到这样一段简短的代码：
 
     <div class="content shadow">
+      <iframe height="100%" width="100%" frameborder="0" src="404.html"></iframe>
     </div>
+
+（没错，404 被我玩坏了……）
 
 在刚打开首页、点击一个单词之前，页面的下方是一片空白。通过 JS，我实现了这样一系列程序：
 
