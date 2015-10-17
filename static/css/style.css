@@ -2,13 +2,6 @@ body {
   background:rgb(242,242,242);
 }
 
-.word {
-  border-radius: 0;
-  background: rgb(224,224,224);
-  color: rgb(83,83,83);
-  font-size: 36px;
-}
-
 .content {
   background:rgb(255,255,255);
   margin-top: 96px;
@@ -18,27 +11,6 @@ body {
   position: fixed;
   height: 100%;
   width: 61.8%;
-}
-
-.current {
-  color: rgb(255,255,255);
-  background: rgb(240,130,35);
-  font-size: 36px;
-}
-
-.item {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 16px;
-  padding-right: 16px;
-  cursor: pointer;
-  line-height: 48px;
-  vertical-align: middle;
-}
-
-.item p {
-  margin-top: 4px;
-  margin-bottom: 4px;
 }
 
 .navbar-collapse {
@@ -56,20 +28,6 @@ body {
   padding-left: 0px;
   padding-right: 0px;
   position: fixed;
-}
-
-.notification {
-  border-radius: 0;
-  color: rgb(83,83,83);
-  font-size: 24px;
-  text-align: right;
-}
-
-.row {
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
 }
 
 .searchbox {
